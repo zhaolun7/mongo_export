@@ -37,6 +37,8 @@ batch_size = 1000
 batch_time = 3600
 # 并发导出线程数
 thread_num = 2
+# 是否将key全部转换为小写并输出
+output_format_lower_key = false
 ```
 
 #### table.ini
