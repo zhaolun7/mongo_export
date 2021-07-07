@@ -1,0 +1,99 @@
+2021/02/01 17:57:36 [INFO] Logger init complete.
+2021/02/01 17:57:36 [INFO] uri key: prod_main,value: mongodb://192.168.153.128:27017
+2021/02/01 17:57:36 [INFO] uri key: test_main,value: mongodb://192.168.153.128:27018
+2021/02/01 17:57:36 [INFO] ExportPath:/root/gocode/mongo_export
+2021/02/01 17:57:36 [INFO] batch_size:1000
+2021/02/01 17:57:36 [INFO] batch_time:3600
+2021/02/01 17:57:36 [INFO] thread_num:2
+2021/02/01 17:57:36 [INFO] export_mode:FULL
+2021/02/01 17:57:36 [INFO] fileAbsPath:D:/gocode/mongo_export/2021-01-29/post.json
+2021/02/01 17:57:36 [INFO] [post]task 0 start to run, _id range: 6017d0876295ada1c78d32d2->6017d0876295ada1c78d32d2
+2021/02/01 17:57:36 [INFO] File written successfully
+2021/02/01 17:58:07 [INFO] Logger init complete.
+2021/02/01 17:58:07 [INFO] uri key: prod_main,value: mongodb://192.168.153.128:27017
+2021/02/01 17:58:07 [INFO] uri key: test_main,value: mongodb://192.168.153.128:27018
+2021/02/01 17:58:07 [INFO] ExportPath:/root/gocode/mongo_export
+2021/02/01 17:58:07 [INFO] batch_size:1000
+2021/02/01 17:58:07 [INFO] batch_time:3600
+2021/02/01 17:58:07 [INFO] thread_num:2
+2021/02/01 17:58:07 [INFO] export_mode:FULL
+2021/02/01 17:58:07 [INFO] fileAbsPath:D:/gocode/mongo_export/2021-01-29/post.json
+2021/02/01 17:58:07 [INFO] [post]task 0 start to run, _id range: 6017d0876295ada1c78d32d2->6017d0876295ada1c78d32d2
+2021/02/01 17:58:07 [INFO] File written successfully
+2021/02/01 17:58:38 [INFO] Logger init complete.
+2021/02/01 17:58:38 [INFO] uri key: prod_main,value: mongodb://192.168.153.128:27017
+2021/02/01 17:58:38 [INFO] uri key: test_main,value: mongodb://192.168.153.128:27018
+2021/02/01 17:58:38 [INFO] ExportPath:/root/gocode/mongo_export
+2021/02/01 17:58:38 [INFO] batch_size:1000
+2021/02/01 17:58:38 [INFO] batch_time:3600
+2021/02/01 17:58:38 [INFO] thread_num:2
+2021/02/01 17:58:38 [INFO] export_mode:FULL
+2021/02/01 17:58:38 [INFO] fileAbsPath:D:/gocode/mongo_export/2021-01-29/post.json
+2021/02/01 17:58:38 [INFO] [post]task 0 start to run, _id range: 6017d0c66295ada1c78d32d3->6017d0c66295ada1c78d32d3
+2021/02/01 17:58:38 [INFO] File written successfully
+2021/02/01 18:15:22 [INFO] Logger init complete.
+2021/02/01 18:15:22 [INFO] uri key: prod_main,value: mongodb://192.168.153.128:27017
+2021/02/01 18:15:22 [INFO] uri key: test_main,value: mongodb://192.168.153.128:27018
+2021/02/01 18:15:22 [INFO] ExportPath:/root/gocode/mongo_export
+2021/02/01 18:15:22 [INFO] batch_size:1000
+2021/02/01 18:15:22 [INFO] batch_time:3600
+2021/02/01 18:15:22 [INFO] thread_num:2
+2021/02/01 18:15:22 [INFO] export_mode:FULL
+2021/02/01 18:15:22 [INFO] fileAbsPath:D:/gocode/mongo_export/2021-01-29/post.json
+2021/02/01 18:15:22 [INFO] [post]task 0 start to run, _id range: 6017d0c66295ada1c78d32d3->6017d0c66295ada1c78d32d3
+2021/02/01 18:15:22 [INFO] File written successfully
+2021/02/01 18:16:37 [INFO] Logger init complete.
+2021/02/01 18:16:37 [INFO] uri key: prod_main,value: mongodb://192.168.153.128:27017
+2021/02/01 18:16:37 [INFO] uri key: test_main,value: mongodb://192.168.153.128:27018
+2021/02/01 18:16:37 [INFO] ExportPath:/root/gocode/mongo_export
+2021/02/01 18:16:37 [INFO] batch_size:1000
+2021/02/01 18:16:37 [INFO] batch_time:3600
+2021/02/01 18:16:37 [INFO] thread_num:2
+2021/02/01 18:16:37 [INFO] export_mode:FULL
+2021/02/01 18:16:37 [INFO] fileAbsPath:D:/gocode/mongo_export/2021-01-29/post.json
+2021/02/01 18:16:37 [INFO] [post]task 0 start to run, _id range: 6017d0c66295ada1c78d32d3->6017d0c66295ada1c78d32d3
+2021/02/01 18:16:37 [INFO] File written successfully
+2021/02/01 18:18:50 [INFO] Logger init complete.
+2021/02/01 18:18:50 [INFO] uri key: prod_main,value: mongodb://192.168.153.128:27017
+2021/02/01 18:18:50 [INFO] uri key: test_main,value: mongodb://192.168.153.128:27018
+2021/02/01 18:18:50 [INFO] ExportPath:/root/gocode/mongo_export
+2021/02/01 18:18:50 [INFO] batch_size:1000
+2021/02/01 18:18:50 [INFO] batch_time:3600
+2021/02/01 18:18:50 [INFO] thread_num:2
+2021/02/01 18:18:50 [INFO] export_mode:FULL
+2021/02/01 18:18:50 [INFO] fileAbsPath:D:/gocode/mongo_export/2021-01-29/post.json
+2021/02/01 18:18:50 [INFO] [post]task 0 start to run, _id range: 6017d0c66295ada1c78d32d3->6017d0c66295ada1c78d32d3
+2021/02/01 18:18:50 [INFO] File written successfully
+2021/02/01 18:19:22 [INFO] Logger init complete.
+2021/02/01 18:19:22 [INFO] uri key: prod_main,value: mongodb://192.168.153.128:27017
+2021/02/01 18:19:22 [INFO] uri key: test_main,value: mongodb://192.168.153.128:27018
+2021/02/01 18:19:22 [INFO] ExportPath:/root/gocode/mongo_export
+2021/02/01 18:19:22 [INFO] batch_size:1000
+2021/02/01 18:19:22 [INFO] batch_time:3600
+2021/02/01 18:19:22 [INFO] thread_num:2
+2021/02/01 18:19:22 [INFO] export_mode:FULL
+2021/02/01 18:19:22 [INFO] fileAbsPath:D:/gocode/mongo_export/2021-01-29/post.json
+2021/02/01 18:19:22 [INFO] [post]task 0 start to run, _id range: 6017d0c66295ada1c78d32d3->6017d0c66295ada1c78d32d3
+2021/02/01 18:19:22 [INFO] File written successfully
+2021/02/01 18:19:51 [INFO] Logger init complete.
+2021/02/01 18:19:51 [INFO] uri key: prod_main,value: mongodb://192.168.153.128:27017
+2021/02/01 18:19:51 [INFO] uri key: test_main,value: mongodb://192.168.153.128:27018
+2021/02/01 18:19:51 [INFO] ExportPath:/root/gocode/mongo_export
+2021/02/01 18:19:51 [INFO] batch_size:1000
+2021/02/01 18:19:51 [INFO] batch_time:3600
+2021/02/01 18:19:51 [INFO] thread_num:2
+2021/02/01 18:19:51 [INFO] export_mode:FULL
+2021/02/01 18:19:51 [INFO] fileAbsPath:D:/gocode/mongo_export/2021-01-29/post.json
+2021/02/01 18:19:51 [INFO] [post]task 0 start to run, _id range: 6017d0c66295ada1c78d32d3->6017d0c66295ada1c78d32d3
+2021/02/01 18:19:51 [INFO] File written successfully
+2021/02/01 18:26:31 [INFO] Logger init complete.
+2021/02/01 18:26:31 [INFO] uri key: prod_main,value: mongodb://192.168.153.128:27017
+2021/02/01 18:26:31 [INFO] uri key: test_main,value: mongodb://192.168.153.128:27018
+2021/02/01 18:26:31 [INFO] ExportPath:/root/gocode/mongo_export
+2021/02/01 18:26:31 [INFO] batch_size:1000
+2021/02/01 18:26:31 [INFO] batch_time:3600
+2021/02/01 18:26:31 [INFO] thread_num:2
+2021/02/01 18:26:31 [INFO] export_mode:FULL
+2021/02/01 18:26:31 [INFO] fileAbsPath:D:/gocode/mongo_export/2021-01-29/post.json
+2021/02/01 18:26:31 [INFO] [post]task 0 start to run, _id range: 6017d0c66295ada1c78d32d3->6017d0c66295ada1c78d32d3
+2021/02/01 18:26:31 [INFO] File written successfully
