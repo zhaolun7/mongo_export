@@ -1,43 +1,45 @@
 # mongo_export
-导出mongodb的数据到文件中
+A tool to export mongodb data to a file
 
-一行一个json，通过配置文件进行配置，减少写代码的工作量
+Save a json in one line, configure it through the configuration file, without repeating the code.
 
-针对嵌套子文档的情况提供了简单的处理逻辑
+Simple processing logic is provided for the case of nested subdocuments.
 
-### 使用方法
+Support multi-threaded export.
+
+### How to use
 
 ```
 ./mongo_export_app -export <secName> -d <YYYY-MM-DD>
 ```
 
-示例：
+Example:
 
 ```
 ./mongo_export_app -export post -d 2021-01-29
 ```
 
-如果导出文件成功，会生成相应的md5
+If the export file is successful, the corresponding <file.json>.md5 will be generated
 
-### 示例配置文件
+### Sample configuration file
 
 #### server.ini
 
 ```ini
 [uri_set]
-# 名称自定义，在table.ini中使用
+# Name custom, used in table.ini
 prod_main = mongodb://192.168.153.128:27017
 test_main = mongodb://192.168.153.128:27018
 [export]
-# 导出路径，实际路径为${path}/日期(需要提前自行建立日期目录)
+# Export path, the actual path is ${path}/date (YYYY-MM-DD, you need to create a date directory in advance)
 path = /root/gocode/mongo_export
-# 全量导出时每批次导出数量
+# Export quantity per batch when exporting in full
 batch_size = 1000
-# 按时间导出时每个时间段长度，单位秒
+# The length of each time period when exporting by time, in seconds
 batch_time = 3600
-# 并发导出线程数
+# Number of concurrent export threads
 thread_num = 2
-# 是否将key全部转换为小写并输出
+# Whether to convert all keys to lowercase and output
 output_format_lower_key = false
 ```
 
@@ -49,11 +51,12 @@ uri         = test_main
 database    = testing
 collection  = numbers
 fields      = likenum,nickname,userid,articleid,_id,street
-# 导出模式，FULL 全量 ,TIME 导出过去多少天
+# Export mode, FULL, TIME (how many days in the past), TIME_HOUR
 export_mode = FULL
-# 展平一层嵌套字段，只处理一层
+# THE FOLLOWING ARE OPTIONAL
+# Flatten one level of nested fields and process only one level
 flatten_fields = {"foo":{"id":"fooId","name":"fooName"},"bar":{"id":"barId","name":"barName"}}
-# 可以自定义导出路径，如果不存在则使用server.ini中的path
+# You can customize the export path, if it does not exist, use the path in server.ini
 path = /data/mongo_export
 
 [post]
@@ -61,21 +64,22 @@ uri         = prod_main
 database    = uki
 collection  = post
 fields      = _id,userId,createdAt,isDeleted,type,auditStatus,optimalCreatedAt,recommendTimestamp,street,topic,themes,video,selfOnly,likeCount,popularity,damask
-# 导出模式，按时间
+# export mode, by time
 export_mode = TIME
-# 时间字段，数字时间戳
+# There needs to be a time field in the collection, a 10-digit timestamp
 export_time_field = createdAt
-# 导出过去多少天的内容
+# How many days in the past to export
 export_time_days = 90
-# 导出路径
+# THE FOLLOWING ARE OPTIONAL
+# Export path, if not filled, it will be in server.ini by default
 path = /data/mongo_export
-# 展平字段，list套一层document，可以自定义分隔符 $sep, 不定义默认为逗号
+# Flatten the field, list a layer of documents, you can customize the separator $sep, if not defined, the default is a comma
 flatten_list_fields = {"topic":{"name":"topic_name_list","$sep":","}}
-# 展平字段，只处理一层document
+# Flatten the field and only process one layer of document
 flatten_fields = {"video":{"videoTime":"videoTime","videoMeasure":"videoMeasure","videoUrl":"videoUrl","videoCover":"videoCover"}}
-# 展平array字段
+# flatten array field
 parse_array_fields = {"themes":{"$sep":","},"tags":{"$sep":"$"}}
-# json字段名转换
+# field name conversion
 change_name_fields = {"createdAt":{"$keep":"0","createdAt":"TIMESTAMP2DATE","timestamp":"NOCHANGE"},"id":{"$keep":"0","postid":"NOCHANGE"}}
 ```
 
