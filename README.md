@@ -1,11 +1,8 @@
 # mongo_export
-A tool to export mongodb data to a file
-
-Save a json in one line, configure it through the configuration file, without repeating the code.
-
-Simple processing logic is provided for the case of nested subdocuments.
-
-Support multi-threaded export.
+- A tool to export mongodb data to a file, for subsequent ETL process.
+- Save a json in one line, configure it through the configuration file, without repeating the code.
+- Simple processing logic is provided for the case of nested subdocuments.
+- Support multi-threaded export.
 
 ### How to use
 
